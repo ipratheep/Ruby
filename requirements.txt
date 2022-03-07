@@ -1,0 +1,8 @@
+folium==0.12.1.post1
+GPSPhoto==2.2.3
+opencage==2.0.0
+phonenumbers==8.12.42
+pyjokes==0.6.0
+pyttsx3==2.90
+pywhatkit==5.3
+SpeechRecognition==3.8.1
