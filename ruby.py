@@ -21,7 +21,7 @@ def track():
     if location() == "empty":
         speak("api key is missing")
     else:
-        webbrowser.open("file:///home/" + getpass.getuser() + "/ruby/location.html")
+        webbrowser.open("file:///home/" + getpass.getuser() + "/Ruby/location.html")
 
 
 def image_track():
@@ -30,7 +30,7 @@ def image_track():
         speak("unable to track this image")
     else:
         speak("tracking gps coordinates start")
-        webbrowser.open("file:///home/"+getpass.getuser()+"/ruby/img_location.html")
+        webbrowser.open("file:///home/"+getpass.getuser()+"/Ruby/img_location.html")
 
 
 def speak(text):
