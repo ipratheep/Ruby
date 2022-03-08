@@ -28,6 +28,6 @@ def location():
 
         mymap = folium.Map(location=[lat, lng], zoom_start=9)
         folium.Marker([lat, lng], popup=[location, provider, number]).add_to(mymap)
-        mymap.save("/home/"+getpass.getuser()+"/ruby/location.html")
+        mymap.save("/home/"+getpass.getuser()+"/Ruby/location.html")
 
 
