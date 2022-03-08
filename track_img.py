@@ -18,4 +18,4 @@ def img_meta():
 
         mymap = folium.Map(location=(lat, lng), zoom_start=9)
         folium.Marker(location=(lat, lng), popup=(date, time, alt)).add_to(mymap)
-        mymap.save("/home/"+getpass.getuser()+"/ruby/img_location.html")
+        mymap.save("/home/"+getpass.getuser()+"/Ruby/img_location.html")
