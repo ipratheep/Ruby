@@ -4,7 +4,7 @@
 # Ruby skills
 
 * She can track the given mobile number and show which internet service provider it belongs.
-* She can tell where the picture is captured.
+* She can locate exact location where the picture is captured.
 * She can play music.
 * She can crack jokes.
 
